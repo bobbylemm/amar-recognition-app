@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-img {
+    background: #011638 !important;
+    background-size: cover !important;
+    background-position: center;
+    min-height: 85vh !important;
+}
+/* this is the second section */
+.title-container {
+    font-size: 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0.4rem;
+}
+/* another */
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-10%);
+    margin: 1rem auto;
+    width: 520px;  
+  }
+  .shape {
+    stroke-dasharray: 395 758;
+    stroke-dashoffset: -646;
+    stroke-width: 10px;
+    fill: transparent;
+    stroke: #EEEEEE;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -48px;
+    position: relative;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760 180;
+  }
+/* svg animation */
+  
+  .hero-description {
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 32px;
+    position: relative;
+    top: -40px;
+    text-align: center;
+  }
+  /*  */
+.hero-title {
+    display: block;
+    text-align: flex;
+    position: relative;
+    margin: 0;
+    font-size: 50px;
+    line-height: 57px;
+    transform: translateY(6rem);
+    animation: up 500ms linear forwards;
+    z-index: 1;
+    text-shadow: 0px 2px 2px white;
+    font-family: 'Muli', sans-serif;
+}
+.hero-title::before, .hero::after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 1px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+.hero-title::before {
+    top: 1.4rem;
+    animation: draw 500ms linear 1s forwards;
+  }
+  .hero-title::after {
+    bottom: 0.4rem;
+    animation: draw 500ms linear 1s forwards;
+  }
+  @keyframes up {
+    100% {
+        transform: translateY(0);
+    }
+  }
+  @keyframes draw {
+    100% {
+      width: 100%;
+    }
+  }
+/* .hero-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23.8px;
+    text-align: center;
+    padding: 1rem 7rem;
+} */
+/* illustration */
+
+/*  */
+.section-white {
+    background: #EEEEEE !important;
+    color: #333 !important;
+    /* height: 70vh !important; */
+    padding: 5rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.info {
+    padding: 30px 0 30px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.info h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+.description {
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-title {
+    font-weight: 800;
+}
+.description p {
+    color: #333;
+}
+.icon {
+    margin-top: 0;
+    font-size: 3.4em;
+}
+.card-icon img {
+    height: 95px;
+    width: 95px;
+}
+.icon img:hover {
+    height: 70px;
+    width: 70px;
+    transition: all .3s cubic-bezier(.78,.48,.12,.64);
+}
+/* image section */
+.imageResult {
+    height: 250px;
+    width: 400px;
+    object-fit: contain;
+    margin: 10px;
+}
+/* footer area */
+/*  */
+
+.card .card-icon {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+}
+.card .card-icon i {
+    font-size: 40px;
+    width: 105px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 105px;
+    line-height: 105px;
+    color: #fff;
+}
+.card-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px 40px 10px 80px;
+}
+.nc-icon {
+    display: inline-block;
+    font-size: inherit;
+    text-transform: none;
+}
+.btn-outline-success {
+    border-color: #fff !important;
+    color: #fff !important;
+    margin: 5px 35px !important;
+}
+/* this is the pre-footer styling */
+.social-line {
+    padding: 30px 0 !important;
+}
+.social-line-black {
+    background-color: #fff;
+    color: #333 !important;
+    padding: 20px 0 !important;
+}
+.social-line .title {
+    margin: 0;
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+.social-line h4 {
+    font-size: 1rem;
+}
+.social-line-black .title {
+    color: #333 !important;
+}
+.fab {
+    color: #333 !important;
+}
+.links a {
+    color: #fff !important;
+}

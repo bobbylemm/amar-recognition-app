@@ -1,0 +1,16 @@
+.Tilt {
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+}
+.Tilt-inner {
+    text-transform: lowercase;
+}
+.Tilt-inner span {
+    padding: .5rem;
+    font-size: 14px;
+    line-height: 16.1px;
+}
+.logo {
+    height: 30px !important;
+    width: 30px !important; 
+    margin: 10px 10px;
+}

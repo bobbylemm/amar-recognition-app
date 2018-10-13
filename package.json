@@ -1,0 +1,29 @@
+{
+  "name": "image-recognition-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "clarifai": "^2.8.1",
+    "noty": "^3.2.0-beta",
+    "react": "^16.5.1",
+    "react-alertify-js": "0.0.1",
+    "react-dom": "^16.5.1",
+    "react-loading-screen": "0.0.17",
+    "react-particles-js": "^2.3.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-tilt": "^0.1.4",
+    "react-transition-group": "^1.2.1",
+    "react-vivus": "0.0.2",
+    "tachyons": "^4.11.1",
+    "vivus": "^0.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

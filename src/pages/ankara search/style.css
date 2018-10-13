@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat');
+
+.ankaraBg {
+    background: #011638 !important;
+    background-size: cover !important;
+    background-position: center;
+    min-height: 55vh !important;
+}
+@media screen and (min-width: 900px) {
+    .ankaraBg .section {
+      height: 120vh !important;
+    }
+}
+.pattern-title {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #fff !important;
+    font-family: 'Merriweather', serif;
+}
+.imageResult {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    font-family: 'Montserrat', sans-serif;
+}
+.errorMessage {
+    color: rgb(240, 87, 87);
+    font-weight: 500;
+    text-align: center;
+    animation: bounce .9s infinite ease;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.text-center .form-inline {
+    margin: 20px 0 40px 135px !important;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+}
+.card-image .card-body {
+    min-height: 50px;
+    padding: 0 4px 0.5em;
+    position: relative;
+    border: none !important;
+  }
+  .card-image .card-body .author img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: none !important;
+  }
+  .particles {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+  }
+  

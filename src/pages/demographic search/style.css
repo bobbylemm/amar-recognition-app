@@ -1,0 +1,61 @@
+.facesBg .section {
+    background: linear-gradient(#232323, rgba(0,0,0,0.7)), url('./img/facesBg.jpg') no-repeat !important;
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    background-position: center !important;
+    background-size: cover !important;
+    /* height: 100vh; */
+}
+@media screen and (min-width: 900px) {
+    .facesBg .section {
+      height: 120vh !important;
+    }
+}
+.imageResult {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.text-center .form-inline {
+    margin: 20px 0 40px 135px !important;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+}
+.card-image .card-body {
+    min-height: 50px;
+    padding: 0 4px 0.5em;
+    position: relative;
+    border: none !important;
+  }
+  .card-image .card-body .author img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: none !important;
+  }
+  .particles {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+  }
+  .errorMessage {
+    color: rgb(240, 87, 87);
+    font-weight: 500;
+    text-align: center;
+    animation: bounce .9s infinite ease;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

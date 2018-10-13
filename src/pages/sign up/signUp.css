@@ -1,0 +1,37 @@
+.page-header {
+  background: #29335C;
+}
+.card.card-register {
+    background-color: #FAFFD8 !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    max-width: 350px;
+    margin: 150px 0 70px;
+    min-height: 400px;
+    padding: 30px !important;
+  }
+  .card.card-register label {
+    margin-top: 15px !important;
+  }
+  .card.card-register .card-title {
+    color: #B33C12;
+    text-align: center;
+  }
+  .card.card-register .btn {
+    margin-top: 30px;
+  }
+  .card.card-register .forgot {
+    text-align: center;
+  }
+  .card-title {
+    color: #2B365D !important;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px auto;
+}
+.btn-danger {
+  background-color: #2B365D;
+  border-color: #2B365D;
+  color: #FFFFFF;
+  opacity: 1;
+}
